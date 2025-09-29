@@ -277,7 +277,6 @@
       <section class="resume-section" id="projects">
         <div class="resume-section-content">
           <h2 class="mb-5">Projects</h2>
-
           <div class="row">
             <div class="col-md-6 mb-4">
               <a href="#project-1" class="js-scroll-trigger text-decoration-none">
@@ -298,28 +297,35 @@
               </a>
             </div>
           </div>
+        </div>
+      </section>
 
-          <hr class="my-5">
+      <hr class="m-0" />
 
-          <div id="project-1" class="mb-5">
-            <h3 class="mb-0">Personal Site Infrastructure</h3>
-            <div class="subheading mb-3">I architected a secure, self-hosted deployment using k3s Kubernetes on a Raspberry Pi to run my services (cv, grafana).</div>
-            <h5>Key Technologies & Flow:</h5>
-            <ul>
-                <li><strong>Security & NAT Bypass:</strong> Established a Cloudflare Tunnel (Zero Trust) to create a secure, outbound connection, eliminating the need to expose ports on my home network.</li>
-                <li><strong>Cloud-Native Hosting:</strong> Utilized k3s and an Ingress controller for container orchestration and smart traffic routing to my application services.</li>
-                <li><strong>Edge Networking:</strong> Leveraged Cloudflare DNS to route external requests through the secure Tunnel and into the cluster.</li>
-                <li><strong>Automated Deployments:</strong> Implemented a GitOps workflow using Argo CD to automatically sync the cluster's state with a Git repository, enabling seamless and version-controlled application updates.</li>
-            </ul>
-            <h5>Demonstrated Skills:</h5>
-            <p>Kubernetes (k3s), Cloudflare Tunnels (Zero Trust), Ingress Controllers, Security, Self-Hosting, GitOps, Argo CD.</p>
-            <img class="img-fluid mt-4" src="assets/img/Pi.png" alt="Project Diagram">
-          </div>
+      <!-- Personal Site Infrastructure -->
+      <section class="resume-section" id="project-1">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Personal Site Infrastructure</h2>
+          <div class="subheading mb-3">I architected a secure, self-hosted deployment using k3s Kubernetes on a Raspberry Pi to run my services (cv, grafana).</div>
+          <h5>Key Technologies & Flow:</h5>
+          <ul>
+              <li><strong>Security & NAT Bypass:</strong> Established a Cloudflare Tunnel (Zero Trust) to create a secure, outbound connection, eliminating the need to expose ports on my home network.</li>
+              <li><strong>Cloud-Native Hosting:</strong> Utilized k3s and an Ingress controller for container orchestration and smart traffic routing to my application services.</li>
+              <li><strong>Edge Networking:</strong> Leveraged Cloudflare DNS to route external requests through the secure Tunnel and into the cluster.</li>
+              <li><strong>Automated Deployments:</strong> Implemented a GitOps workflow using Argo CD to automatically sync the cluster's state with a Git repository, enabling seamless and version-controlled application updates.</li>
+          </ul>
+          <h5>Demonstrated Skills:</h5>
+          <p>Kubernetes (k3s), Cloudflare Tunnels (Zero Trust), Ingress Controllers, Security, Self-Hosting, GitOps, Argo CD.</p>
+          <img class="img-fluid mt-4" src="assets/img/Pi.png" alt="Project Diagram">
+        </div>
+      </section>
 
-          <hr class="my-5">
+      <hr class="m-0" />
 
-          <div id="project-2">
-            <h3 class="mb-0">Water Meter OCR Application (Pre-Generative AI Solution)</h3>
+      <!-- Water Meter OCR Application -->
+      <section class="resume-section" id="project-2">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Water Meter OCR Application (Pre-Generative AI Solution)</h2>
             <div class="subheading mb-3">I developed a full-stack Optical Character Recognition (OCR) Progressive Web App (PWA) for a water utility company to automate meter reading. The application was designed for mobile use only, demonstrating expertise in ML model deployment and modern web development.</div>
             <h5>Key Contributions & Technologies:</h5>
             <ul>
@@ -338,8 +344,6 @@
             <div class="ratio ratio-16x9 mt-4">
               <iframe src="https://www.youtube.com/embed/lpmiceNpndM" title="YouTube video player" allowfullscreen></iframe>
             </div>
-          </div>
-
         </div>
       </section>
 
